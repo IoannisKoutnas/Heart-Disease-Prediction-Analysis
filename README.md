@@ -58,7 +58,7 @@ To identify key risk factors and patterns associated with heart disease using a 
 
 - `Heart_Disease_Analysis.ipynb` → Main Jupyter Notebook
 - `heart_disease_LightGBM.csv` → Final Submission File (Best Model)
-- `heart_disease_XGBoost.csv`, `heart_disease_RF.csv` → Other submissions
+- `heart_disease_LR.csv`,`heart_disease_XGBoost.csv`, `heart_disease_RF.csv` → Other submissions
 - `README.md` (this file)
 
 ---
@@ -69,10 +69,6 @@ To identify key risk factors and patterns associated with heart disease using a 
 - Importance of domain knowledge in outlier treatment
 - Balancing model performance with clinical interpretability
 - Using SHAP for trustworthy model explanations
-
----
-
-**Status**: Ready for Production / Deployment
 
 ---
 
