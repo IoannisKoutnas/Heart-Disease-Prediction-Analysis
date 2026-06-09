@@ -1,80 +1,34 @@
-# Heart Disease Diagnostic Analysis | Portfolio Project
+# Heart Disease Diagnostic Analysis
 
-**End-to-End Data Analysis & Machine Learning Project**
+**Portfolio Project** | Data Science & Machine Learning
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-FF9E0F?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-1A73E8?style=for-the-badge)
+A comprehensive analysis of heart disease prediction using clinical patient data (900,000+ records).
 
-## 📋 Project Objective
-
-To identify key risk factors and patterns associated with heart disease using a large clinical dataset of over **900,000 patient records**. The goal was to build accurate, interpretable, and explainable machine learning models to predict the presence of heart disease.
+![Dashboard Preview](https://via.placeholder.com/800x400?text=Heart+Disease+Dashboard)
 
 ---
 
-## 🚀 Key Highlights
+## 🎯 Project Objective
 
-- **Best Model**: **LightGBM** with **88.80% accuracy** and **0.87 Recall**
-- **ROC-AUC Score**: **0.9548** (Excellent discriminative power)
-- **Advanced Techniques**: SHAP Explainability, Cross-Validation, Threshold Optimization
-- **Clinical Insight**: Retained medical outliers (e.g., high BP) as they carry important predictive signal
-- **Strongest Predictors**: Thallium Stress Test, Chest Pain Type, Max Heart Rate
+To identify key risk factors and build high-accuracy machine learning models to predict the presence of heart disease using clinical data.
 
 ---
 
-## 📊 Project Structure
+## 📊 Key Highlights
 
-- **Chapter 1–5**: Project Setup, Data Loading & Cleaning
-- **Chapter 6–8**: Exploratory Data Analysis & Feature Relationships
-- **Chapter 9**: Data Preprocessing & Feature Engineering
-- **Chapter 10–14**: Model Development (Logistic Regression → Random Forest → XGBoost → LightGBM)
-- **Chapter 15**: Advanced Evaluation (ROC-AUC, Threshold Tuning, Cross-Validation)
-- **Chapter 16**: Model Explainability with SHAP
-- **Chapter 17**: Final Conclusion & Recommendations
+- **Training Data**: 630,000 records
+- **Test Data**: 270,000 records
+- **Clinical Features**: 15
+- **Best Model**: **LightGBM** (Accuracy: **88.80%**, Recall: **0.87**, ROC-AUC: **0.9548**)
+- **Major Insights**: Strong gender disparity, Thallium test as top predictor, Asymptomatic chest pain at 70% risk
 
 ---
 
-## 📈 Key Insights
+## 🚀 Interactive Dashboard (Streamlit)
 
-- Male patients are over **3x more likely** to have heart disease than females (56% vs 18%)
-- **Asymptomatic** chest pain patients had **70%** probability of heart disease
-- **Thallium Stress Test** (especially Reversible Defect) is the strongest predictor
-- Age and reduced Max Heart Rate are significant risk factors
+### Live Dashboard
 
----
+You can explore the full interactive dashboard locally:
 
-## 🛠️ Technologies Used
-
-- **Data Analysis**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Scikit-Learn, XGBoost, LightGBM
-- **Explainability**: SHAP
-- **Evaluation**: Cross-Validation, ROC-AUC, Precision-Recall
-
----
-
-## 📁 Files in Repository
-
-- `Heart_Disease_Analysis.ipynb` → Main Jupyter Notebook
-- `heart_disease_LightGBM.csv` → Final Submission File (Best Model)
-- `heart_disease_LR.csv`,`heart_disease_XGBoost.csv`, `heart_disease_RF.csv` → Other submissions
-- `README.md` (this file)
-
----
-
-## 🏆 What I Learned
-
-- End-to-end ML workflow on large-scale data
-- Importance of domain knowledge in outlier treatment
-- Balancing model performance with clinical interpretability
-- Using SHAP for trustworthy model explanations
-
----
-
-**Feel free to explore the notebook!**  
-Any feedback or suggestions for improvement are welcome.
-
----
-
-**Ioannis Koutnas — Aspiring Junior Data Analyst**
+```bash
+streamlit run app.py
