@@ -4,8 +4,6 @@
 
 A comprehensive analysis of heart disease prediction using clinical patient data (900,000+ records).
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Heart+Disease+Dashboard)
-
 ---
 
 ## 🎯 Project Objective
